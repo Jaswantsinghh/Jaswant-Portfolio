@@ -1,0 +1,182 @@
+a{
+color: #ef962d;
+padding: 10px;
+text-decoration: none;
+}
+
+a:hover{
+  color: #442727;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.bottom-container{
+   background-color: #f3ecb8;
+   padding: 10px;
+}
+
+.BUTTON_IBH {
+   -webkit-border-radius: 48px;
+   -moz-border-radius: 48px;
+   border-radius: 48px;
+   height: 3px;
+   line-height: 3px;
+   color: #442727;
+   font-family:'Marcellus SC', serif;
+   width: 167px;
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 30px;
+   margin-bottom: 100px;
+   padding: 29px;
+   background-color: #F3ECB8;
+   -webkit-box-shadow: 1px 1px 10px 0 #000000;
+   -moz-box-shadow: 1px 1px 10px 0 #000000;
+   box-shadow: 1px 1px 10px 0 #000000;
+   border: solid #442727 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_IBH:hover {
+   background: #EF962D;
+   border: solid #010101 3px;
+   -webkit-border-radius: 53px;
+   -moz-border-radius: 53px;
+   border-radius: 53px;
+   text-decoration: none;
+}
+
+
+.contact-me{
+  margin: 0;
+  padding: 100px;
+}
+
+.footer-text{
+  color: grey;
+  font-size: 0.75rem;
+  padding-top: 30px;
+
+}
+
+hr{
+  color: #ef962d;
+  margin: 0 auto 0 auto;
+  padding: 30px;
+  margin-top: 70px;
+
+  border-style:none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+
+h1{
+  width: 30%;
+  margin: 0 auto 0 auto;
+  color: #442727;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 3rem;
+  z-index: 3;
+}
+
+h2{
+  color: #442727;
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  margin: 0;
+}
+
+h3{
+  color: #ef962d;
+}
+
+.imgcode{
+  float: right;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.imgpoem{
+  float: left;
+  margin: 50px;
+  margin-top: 15px;
+
+}
+
+.imgprogrammer{
+  float: left;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-top: 15px;
+}
+
+.intro{
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+  background-color: #f3ecb8;
+  height: 770px;
+  z-index: 2;
+}
+
+.introh2{
+  font-weight: normal;
+  z-index: 3;
+}
+
+.mainbody{
+ padding: 20px;
+}
+
+.middle-container{
+  padding: 100px
+}
+
+p{
+  margin: 0;
+}
+
+.profilepic{
+  height:30%;
+  width: 30%;
+}
+
+.road{
+ position: relative;
+ bottom: 290px;
+ width: 100%;
+ height: 865px;
+ z-index: 1;
+}
+
+.skills{
+  padding: 50px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
+
+.skill-row{
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+@media (max-width :991px)
+{
+  .intro{
+    height: 950px;
+  }
+}
